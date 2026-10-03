@@ -24,4 +24,5 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
 // 触发CI打包测试
